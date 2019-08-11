@@ -96,12 +96,37 @@ body{
   background-color: #BB1919;
 }
   #newsheadtext {
+    float: left;
     margin-left: 10%;
     position: relative;
     top: -20px;
     font-size: 270%;
     color: #FFFFFF;
     font-weight: normal;
+  }
+  .right {
+    float: right;
+    margin: 15px 11% 15px 15px;
+    border: 1px solid #CCCCCC;
+  }
+  #localnews {
+    float: left;
+    padding: 6px;
+    font-size: 19px;
+    font-weight: bold;
+  }
+  .right a {
+    text-decoration: none;
+    color: white;
+  }
+  .right a:hover {
+    text-decoration: underline;
+    color: black;
+  }
+  .right img {
+    float: right;
+    height: 35px;
+    width: 30px;
   }
 
 #navbar {

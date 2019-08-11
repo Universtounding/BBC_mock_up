@@ -14,9 +14,9 @@
       <div id="topbar">
         <img  id="logo" src="images/bbc-logo.png">
 
-        <div class="borderleft" id="signin">
+        <div class="borderleft">
           <img id="signinimage" src="images/signinimage.png">
-          <span id="signin-text"><a href="signin.html">Signin</a></span>
+          <span><a href="signin.html">Signin</a></span>
         </div>
 
         <div name="bellpic">
@@ -54,27 +54,28 @@
           </select>
         </div>
 
-        <div class="borderleft topbar_search">
-        </div>
+
         <div>
           <input type="text" id="searchfeat" value="Search">
-          <a href=""><img id="searchicon" src="images/magnifying-glass.png"></a>
+          <button id="searchButton" onclick="alert('whats up')"><img id="searchicon" src="images/magnifying-glass.png"></button>
         </div>
 
       </div>
 
     <div class="clear"></div>
       <div id="newshead">
-        <div class="right">
-            <a id="localnews" href="https://www.google.com">Find local news</a>
-            <a href="https://www.google.com"><img id="localnewsimg" src="images/pointer.png"></a>
+        <div id="menubar">
+          <h1>NEWS</h1>
+          <div class="localnews_container">
+            <span id="localnews_text"><a href="https://www.google.com">Find local news</a></span>
+            <img src="images/pointer.png">
+          </div>
         </div>
-        <h1 id="newsheadtext">NEWS</h1>
       </div>
-      <div id="navbar">
-        <div>
-          <div id="navbartexthome">
-            <span>Home</span>
+      <div class="navbar">
+        <div id="navtextcontainer">
+          <div id="navbartext">
+            <a href="http://www.google.com">Home</a>
           </div>
           <div class="borderleft">
             <span id="navbartext">Video</span>
